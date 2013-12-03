@@ -8,7 +8,7 @@ DETECT_KERNEL_MACRO := case `uname -r` in \
       3.13*) echo "ERROR";; \
       3.12*) echo "3110";; \
       3.11*) echo "3110";; \
-      3.10*) echo "390";; \
+      3.10*) echo "3110";; \
       3.9*)  echo "390";; \
       3.8*)  echo "360";; \
       3.7*)  echo "360";; \
